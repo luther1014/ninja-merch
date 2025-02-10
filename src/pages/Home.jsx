@@ -16,6 +16,9 @@ export default function Home() {
             <Card>
               <img src={product.img} alt="product logo" />
               <h2 class="my-3 font-bold">{product.title}</h2>
+              <a href={"/products/" + product.id} class="btn">
+                View Product
+              </a>
             </Card>
           )}
         </For>
